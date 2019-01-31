@@ -1,0 +1,21 @@
+= 3. Conformance
+
+The NSG Interoperability Standard establishes two conformance classes:
+
+1.  NSG Basic WMTS (includes GetCapability and GetTile)
+2.  NSG Queryable WMTS (extends NSG Basic WMTS by adding GetFeatureInfo)
+
+Conformance with this NSG WMTS Interoperability Standard shall be checked using all relevant tests specified in Annex A (normative) of this document. In addition, conformance shall be checked using the framework, concepts, and methodology for testing specified in the OGC Compliance Testing Policies and Procedures and the OGC Compliance Testing web sitefootnote:[http://cite.opengeospatial.org/teamengine/]. Normative server requirements for Basic and Queryable are summarized in Table 1 below and described in more detail as follows: Tables 4 and 5 for Basic, and Table 16 for Queryable. Client requirements are described in Table 18. Abstract tests for checking server implementations of this standard are located in Annex A. Client abstract tests are identified as a future work item in Section iv.
+
+=== Table 1: NSG WMTS Profile Conformance Classes
+
+[cols=",,",options="header",]
+|===============================
+|*Conformance class name* a|*Operation or behavior* a|*NSG WMTS Conformance Test*
+
+a|*NSG Basic* *WMTS* a|  *NSG Basic WMTS (normative)* Requirement 1 to Requirement 16 a| A.2 Server test Module (NSG Basic WMTS)
+  
+a|*NSG* *Queryable* *WMTS*  a| *NSG Queryable WMTS (normative)* All requirements from NSG Basic WMTS and Requirement 17 to Requirement 22
+
+a| A.3 Server test Module (NSG Queryable WMTS) 
+|===============================
